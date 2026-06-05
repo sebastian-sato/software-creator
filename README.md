@@ -6,7 +6,7 @@ I wanted to try implementing something like those "agentic" software development
 # Usage:
 This doesn't contain code for actually running the LLM, just a client for connecting to an HTTP server running one, using the same format as my "Distributed LLM Server" project.
 
-**CONFIG.PY** is where the information for connecting to the server is specified.
+**CONFIG.py** is where the information for connecting to the server is specified.
 
 Install dependencies:
 ```
