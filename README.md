@@ -1,4 +1,4 @@
-# software-creator
+# basic-software-agent
 Basic implementation of an LLM client that can scaffold simple software projects.
 
 I wanted to try implementing something like those "agentic" software development tools. Compared to those, the capabilities of this are pretty limited, and I mostly wrote this as a proof of concept. If you wanted to insert your own LLM pipeline without using my specific server implementation, you'd just need to replace the code in the generate function within llm_client.py, and maybe also update the prompt format specified in construct_prompt.py
